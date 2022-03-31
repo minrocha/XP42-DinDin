@@ -1,0 +1,80 @@
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+   
+    padding: 0;   
+    
+}
+
+main .container .titulo {
+    font-family: 'Ubuntu';
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--cor-titulos);
+    margin: 81px 0 0 0;
+}
+
+main .container .sub-titulo {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    margin-bottom: 95px;
+}
+
+main .container .titulo, .sub-titulo {
+    margin-left: 445px;
+} 
+
+main .container .lista-cursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container .lista-cursos .curso {
+    display: flex;
+    align-items: center;
+    margin: 0 0 53px 112px;
+}
+
+main .container .lista-cursos .curso .leftside {
+    margin: 0 53px 0 0;
+}
+
+main .container .lista-cursos .curso .leftside img{
+    width: 380px;
+}
+
+main .container .lista-cursos .curso .rightside .titulo-curso  {
+    font-family: 'Ubuntu';
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--cor-titulos);
+    margin: 0 0 37px 0;
+}
+
+main .container .lista-cursos .curso .rightside .descricao-curso{
+    font-family: 'Ubuntu';
+    font-size: 18px;  
+    height: 105px;
+    width: 724px;
+}
+
+main .container .lista-cursos .curso .rightside button {
+    width: 233px;
+    height: 51px;
+    background-color: #419488;
+    color: #ffffff;
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    border-radius: 62px;
+}
+
+main .container .lista-cursos hr {
+    margin: 0 0 107px 82px;
+    width: 1224px;
+    height: 5px;
+    background-color: #c4c4c4;
+}
+
+

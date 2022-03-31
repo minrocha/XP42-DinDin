@@ -1,3 +1,209 @@
-main {
-    padding: 250px;
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0;
 }
+
+main .container .primeira {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .container .primeira .onde-comecar {
+    display: flex;
+}
+
+main .container .primeira .onde-comecar .leftside  .titulo-primeira {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--cor-titulos);
+    width: 488px;
+    margin: 125px 39px 19px 0;
+}
+
+main .container .primeira .onde-comecar .leftside  .descricao-titulo-primeira {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 27px;
+    color: #555555;
+    width: 462px;
+    margin: 0 0 38px 0;
+}
+
+main .container .primeira .onde-comecar .rightside .ilustra-banner {
+    margin: 125px 0 66px 0;
+}
+
+main .container .primeira .onde-comecar .leftside .quero-saber-mais {
+    width: 216px;
+    height: 21px;
+    font-family: 'Ubuntu';
+    font-size: 27px;
+    color: var(--cor-titulos);
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 9px;
+    text-decoration: none;
+}
+
+main .container .segunda {
+    
+    width: 100%; 
+    background-color: #f7f7f7;
+}
+
+main .container .segunda .lista-cursos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .container .segunda .lista-cursos .curso {
+    margin: 109px 0 117px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container .segunda .lista-cursos .curso .illustra-curso {
+    width: 288px;
+    height: 270px;
+    margin: 0 0 45px 0;
+}
+
+main .container .segunda .lista-cursos .curso .titulo-curso {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--cor-titulos);
+}
+
+main .container .segunda .lista-cursos .curso .descricao-curso {
+    width: 293px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+}
+
+main .container .segunda .lista-cursos .curso .comecar-agora {
+    width: 233px;
+    padding: 15px 0 15px 0;
+    color: #ffffff;
+    background-color: var(--cor-titulos);
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 20px;
+    border-radius: 62px;
+    margin-top: 26px;
+    text-align: center;    
+}
+
+main .container .terceira {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 155px;
+}
+
+main .container .terceira .titulo-terceira {
+    font-family: 'Nunito';
+    font-size: 37px;
+    font-weight: 700;
+    color: #009688;
+    margin: 119px 0 78px 0; 
+    text-transform: uppercase;
+}
+
+main .container .terceira .falam-sobre-nos {
+    
+    display: flex;
+    width: 100%;
+    align-content: flex-start;
+    justify-content: space-around;
+  
+}
+
+main .container .terceira .falam-sobre-nos .leftside .auxilia, .rightside .auxilia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 86px;
+} 
+
+main .container .terceira .falam-sobre-nos .rightside {
+    margin-top: 148px;
+}
+
+main .container .terceira .falam-sobre-nos .rightside .auxilia {
+    display: flex;
+    align-items: center;
+    margin: 87px 0 86px 0;
+} 
+
+main .container .terceira .falam-sobre-nos .leftside .auxilia .descricao-personagem, .rightside .auxilia .descricao-personagem{
+    width: 366px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;  
+}
+
+main .container .quarta {
+    width: 100%;
+    background-color: #e5e5e5;
+    
+}
+
+main .container .quarta .mais-conteudo {
+   display: flex;
+   flex-direction: column;
+}
+
+main .container .quarta .mais-conteudo .titulo-mais-conteudo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: #009688;
+    margin: 91px 0 73px 210px;
+    text-transform: uppercase;
+}
+
+main .container .quarta .mais-conteudo .itens-conteudo {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+main .container .quarta .mais-conteudo .itens-conteudo .conteudo-extra .titulo-conteudo-extra {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #009688;
+}
+
+main .container .quarta .mais-conteudo .itens-conteudo .conteudo-extra .descricao-conteudo {
+    width: 319px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px; 
+}
+
+
+main .container .quarta .mais-conteudo .itens-conteudo .conteudo-extra .img-conteudo-extra {
+    width: 319px;
+    height: 193px;
+    background-color: #c4c4c4;
+}
+
+main .container .quarta .mais-conteudo .ver-todos-posts{
+    width: 289px;
+    padding: 10px 0 10px 0;
+    border: 2px solid #ff4081;
+    text-align: center;
+    border-radius: 62px;
+    color: #ff4081;
+    text-decoration: none;
+    margin: 101px auto 53px auto;
+ }
+
+ @media only screen and (max-width: 390px) {
+     
+ }

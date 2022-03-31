@@ -1,0 +1,56 @@
+main .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .container .leftside {
+    display: block;
+    
+
+}
+
+main .container .leftside section form .titulo-contato {
+    margin: 0;
+    font-family: 'Ubuntu';
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--cor-titulos);
+    margin: 105px 0 44px 0;
+}
+
+input[type=text],input[type=email], textarea {
+    box-sizing: border-box;
+    width: 493px;
+    height: 32px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    padding-left: 22px;
+}
+
+input[name=mensagem] {
+  border: 1px solid black;
+  padding: 25px 0 193px 22px;
+}
+
+input[type=submit] {
+    margin-bottom: 102px;
+
+    width: 108px;
+    height: 32px;
+    background-color: var(--cor-titulos);
+    border-radius: 50px;
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: lowercase;
+    color: #ffffff;
+}
+
+main .container .rightside aside img {
+    margin: 125px 0 0px 201px;
+
+    width: 444px;
+    height: 444px;
+}

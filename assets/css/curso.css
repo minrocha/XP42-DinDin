@@ -1,0 +1,70 @@
+main .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container .section-one{
+    display: flex;
+    
+    margin-top: 80px;
+    margin-left: -100px;
+
+}
+
+main .container .section-one .leftside .titulo-curso {
+    font-family: 'Ubuntu';
+    font-size: 55px;
+    font-weight: 700;
+    color: var(--cor-titulos);
+    width: 400px;
+}
+
+main .container .section-one .leftside .descricao-curso {
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    width: 461px;
+}
+
+main .container .section-one .rightside {
+    margin-left: 88px;
+}
+
+main .container .section-one .rightside img {
+    width: 380px;
+    height: 380px;
+}
+
+main .container .section-two {
+    margin-top: 81px;
+    padding-top: 75px;
+    display: block;
+    margin-bottom: 75px;
+    
+}
+
+main .container .section-two .article {
+   display: flex;
+   justify-content: center;
+}
+
+main .container .section-two hr {
+    width: 1244px;
+    height: 3px;
+    background-color: #c4c4c4;
+    margin: 73px 0;
+}
+
+main .container .section-two .article .rightside .descricao-aula {
+    width: 501px;
+}
+
+main .container .section-two .article .leftside .video-aula {
+    width: 462px;
+    height: 261px;
+    border: 3px solid #8e8e8e;
+    margin-right: 76px;
+    background-color: #ca9191;
+}
+

@@ -1,0 +1,97 @@
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+main .container .primeira {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 222px;
+}
+
+main .container .primeira .titulo-post {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    color: #ff4081;
+    margin: 111px auto 0 auto;
+}
+
+main .container .primeira .data {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+
+    margin: 0 auto 74px auto;
+}
+
+main .container .primeira .texto-post {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    max-width: 1032px;
+    margin: 0 auto 0 auto;
+}
+
+main .container .primeira .sub-titulo {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    color: #4156ca;
+    margin: 70px 0 20px 0;
+}
+
+main .container .primeira .img-ilustra-post {
+    width: 1032px;
+    height: 465px;
+    margin-bottom: 64px;
+    background-color: #c4c4c4;
+}
+
+main .container .segunda {
+    width: 100%; 
+    background-color: #f7f7f7;
+}
+
+main .container .segunda .lista-cursos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main .container .segunda .lista-cursos .curso {
+    margin: 109px 0 117px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container .segunda .lista-cursos .curso .illustra-curso {
+    width: 238px;
+    height: 279px;
+    margin: 0 0 45px 0;
+}
+
+main .container .segunda .lista-cursos .curso .titulo-curso {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--cor-titulos);
+}
+
+main .container .segunda .lista-cursos .curso .descricao-curso {
+    width: 293px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+main .container .segunda .lista-cursos .curso .comecar-agora {
+    width: 233px;
+    padding: 15px 0 15px 0;
+    color: #ffffff;
+    background-color: var(--cor-titulos);
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 20px;
+    border-radius: 62px;
+    margin-top: 33px;
+    text-align: center;    
+    text-decoration: none;
+}
