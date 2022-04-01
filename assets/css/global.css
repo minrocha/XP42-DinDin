@@ -22,7 +22,7 @@ header {
 header h2 a{
     display: block;
     color: transparent;
-    background: url(assets/img/logo-header.png) 0 0 no-repeat;
+    background: url(../img/logo-header.png) 0 0 no-repeat;
     width: 244px;
     height: 77px;
     margin-left: 50px;
@@ -61,7 +61,7 @@ footer .container{
 footer h2 a{
     display: block;
     color: transparent;
-    background: url(assets/img/logo-footer.png) 0 0 no-repeat;
+    background: url(../img/logo-footer.png) 0 0 no-repeat;
     width: 312px;
     height: 102px;
 }
