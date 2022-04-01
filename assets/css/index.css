@@ -23,7 +23,7 @@ main .container .primeira .onde-comecar .leftside  .titulo-primeira {
     font-size: 60px;
     font-weight: 700;
     color: var(--cor-titulos);
-    width: 488px;
+    max-width: 488px;
     margin: 125px 39px 19px 0;
 }
 
@@ -31,7 +31,7 @@ main .container .primeira .onde-comecar .leftside  .descricao-titulo-primeira {
     font-family: 'Ubuntu', sans-serif;
     font-size: 27px;
     color: #555555;
-    width: 462px;
+    max-width: 462px;
     margin: 0 0 38px 0;
 }
 
@@ -40,7 +40,7 @@ main .container .primeira .onde-comecar .rightside .ilustra-banner {
 }
 
 main .container .primeira .onde-comecar .leftside .quero-saber-mais {
-    width: 216px;
+    max-width: 216px;
     height: 21px;
     font-family: 'Ubuntu';
     font-size: 27px;
@@ -98,13 +98,14 @@ main .container .segunda .lista-cursos .curso .comecar-agora {
     border-radius: 62px;
     margin-top: 26px;
     text-align: center;    
+    text-decoration: none;
 }
 
 main .container .terceira {
     width: 100%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 155px;
+    margin-bottom: 100px;
 }
 
 main .container .terceira .titulo-terceira {
@@ -143,6 +144,7 @@ main .container .terceira .falam-sobre-nos .rightside .auxilia {
 
 main .container .terceira .falam-sobre-nos .leftside .auxilia .descricao-personagem, .rightside .auxilia .descricao-personagem{
     width: 366px;
+    margin-left: 10px;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;  
 }
@@ -163,7 +165,7 @@ main .container .quarta .mais-conteudo .titulo-mais-conteudo{
     font-size: 37px;
     font-weight: 700;
     color: #009688;
-    margin: 91px 0 73px 210px;
+    margin: 91px 0 73px 100px;
     text-transform: uppercase;
 }
 
@@ -204,6 +206,334 @@ main .container .quarta .mais-conteudo .ver-todos-posts{
     margin: 101px auto 53px auto;
  }
 
- @media only screen and (max-width: 390px) {
-     
+ @media only screen and (max-width: 391px) {
+    main .container .primeira .onde-comecar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;       
+    }
+
+    main .container .primeira .onde-comecar .leftside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .container .primeira .onde-comecar .leftside  .titulo-primeira  {
+        text-align: center;
+        font-size: 30px;
+        margin: 30px 0 25px 0;
+    }
+
+    main .container .primeira .onde-comecar .leftside  .descricao-titulo-primeira {
+        font-size: 15px;
+        max-width: 2000px;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto 18px auto;
+    }
+
+    main .container .primeira .onde-comecar .leftside .quero-saber-mais {
+        max-width: 200px;
+        height: 21px;
+        font-size: 15px;
+        margin: 0 auto 0 auto;
+        padding: 0 5px 0 5px;
+    }
+
+    main .container .primeira .onde-comecar .rightside {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .container .primeira .onde-comecar .rightside .ilustra-banner {
+        margin: 35px 0 15px 0;
+        width: 50%;
+    }
+
+    main .container .segunda .lista-cursos {
+        flex-direction: column;
+    }
+
+    main .container .segunda .lista-cursos .curso {
+        margin: 30px 0 30px 0;
+    }
+
+    main .container .segunda .lista-cursos .curso .illustra-curso {
+        max-width: 50%;
+        height: 50%;
+        margin: 0;
+    }
+
+    main .container .segunda .lista-cursos .curso .titulo-curso {
+        font-size: 20px;
+    }
+
+    main .container .segunda .lista-cursos .curso .descricao-curso {
+        max-width: 293px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    main .container .segunda .lista-cursos .curso .comecar-agora {
+        max-width: 150px;
+        font-size: 15px;
+        padding: 5px 0 5px 0;
+        border-radius: 62px;
+        margin-top: 10px;
+        text-align: center;    
+        text-decoration: none;
+    }
+
+    main .container .terceira {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    main .container .terceira .falam-sobre-nos {
+        flex-direction: column;
+    }
+
+    main .container .terceira .titulo-terceira {
+        font-size: 25px;
+        text-align: center;
+        margin: 35px 0 30px 0; 
+    }
+    
+    main .container .terceira .falam-sobre-nos .leftside {
+        margin-bottom: 40px;
+    }
+
+    main .container .terceira .falam-sobre-nos .leftside .auxilia, .rightside .auxilia {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 15px 0;
+    }
+
+    main .container .terceira .falam-sobre-nos .rightside .auxilia {
+        margin: 0 0 40px 0;
+    }
+
+    main .container .terceira .falam-sobre-nos .rightside {
+        margin: 0px 0 0px 0;
+    }
+
+    main .container .terceira .falam-sobre-nos .leftside .auxilia .descricao-personagem, .rightside .auxilia .descricao-personagem{
+        max-width: 250px;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    main .container .quarta {
+        width: 100%;
+    }
+
+    main .container .quarta .mais-conteudo {
+        align-items: center;
+    }
+    
+    main .container .quarta .mais-conteudo .titulo-mais-conteudo{
+        font-size: 20px;
+        margin: 25px 0 25px 0;
+    }
+
+    main .container .quarta .mais-conteudo .itens-conteudo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    main .container .quarta .mais-conteudo .itens-conteudo .conteudo-extra {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .container .quarta .mais-conteudo .itens-conteudo .conteudo-extra .img-conteudo-extra {
+        width: 290px;
+        height: 164px;
+    }
+
+    main .container .quarta .mais-conteudo .itens-conteudo .conteudo-extra .descricao-conteudo {
+        max-width: 319px;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+
+    main .container .quarta .mais-conteudo .itens-conteudo .conteudo-extra .titulo-conteudo-extra {
+        margin: 10px 0 10px 0;
+    }
+
+    main .container .quarta .mais-conteudo .ver-todos-posts{
+        width: 180px;
+        padding: 5px 0 5px 0;
+        text-align: center;
+        margin: 0 0 30px 0;
+     }
+ }
+
+ @media only screen and (min-width: 392px) and (max-width: 769px) {
+    main .container .primeira .onde-comecar {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;       
+    }
+
+    main .container .primeira .onde-comecar .leftside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .container .primeira .onde-comecar .leftside  .titulo-primeira  {
+        text-align: center;
+        font-size: 30px;
+        margin: 30px 0 25px 0;
+    }
+
+    main .container .primeira .onde-comecar .leftside  .descricao-titulo-primeira {
+        font-size: 15px;
+        max-width: 2000px;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto 18px auto;
+    }
+
+    main .container .primeira .onde-comecar .leftside .quero-saber-mais {
+        max-width: 200px;
+        height: 21px;
+        font-size: 15px;
+        margin: 0 auto 0 auto;
+        padding: 0 5px 0 5px;
+    }
+
+    main .container .primeira .onde-comecar .rightside {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .container .primeira .onde-comecar .rightside .ilustra-banner {
+        margin: 35px 0 15px 0;
+        width: 50%;
+    }
+
+    main .container .segunda .lista-cursos {
+        flex-direction: column;
+    }
+
+    main .container .segunda .lista-cursos .curso {
+        margin: 30px 0 30px 0;
+    }
+
+    main .container .segunda .lista-cursos .curso .illustra-curso {
+        max-width: 50%;
+        height: 50%;
+        margin: 0;
+    }
+
+    main .container .segunda .lista-cursos .curso .titulo-curso {
+        font-size: 20px;
+    }
+
+    main .container .segunda .lista-cursos .curso .descricao-curso {
+        max-width: 293px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    main .container .segunda .lista-cursos .curso .comecar-agora {
+        max-width: 150px;
+        font-size: 15px;
+        padding: 5px 0 5px 0;
+        border-radius: 62px;
+        margin-top: 10px;
+        text-align: center;    
+        text-decoration: none;
+    }
+
+    main .container .terceira {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    main .container .terceira .falam-sobre-nos {
+        flex-direction: column;
+    }
+
+    main .container .terceira .titulo-terceira {
+        font-size: 25px;
+        text-align: center;
+        margin: 35px 0 30px 0; 
+    }
+    
+    main .container .terceira .falam-sobre-nos .leftside {
+        margin-bottom: 40px;
+    }
+
+    main .container .terceira .falam-sobre-nos .leftside .auxilia, .rightside .auxilia {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 15px 0;
+    }
+
+    main .container .terceira .falam-sobre-nos .rightside .auxilia {
+        margin: 0 0 40px 0;
+    }
+
+    main .container .terceira .falam-sobre-nos .rightside {
+        margin: 0px 0 0px 0;
+    }
+
+    main .container .terceira .falam-sobre-nos .leftside .auxilia .descricao-personagem, .rightside .auxilia .descricao-personagem{
+        max-width: 250px;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    main .container .quarta .mais-conteudo {
+        align-items: center;
+    }
+    
+    main .container .quarta .mais-conteudo .titulo-mais-conteudo{
+        font-size: 20px;
+        margin: 25px 0 25px 0;
+    }
+
+    main .container .quarta .mais-conteudo .itens-conteudo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    main .container .quarta .mais-conteudo .itens-conteudo .conteudo-extra {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .container .quarta .mais-conteudo .itens-conteudo .conteudo-extra .img-conteudo-extra {
+        width: 290px;
+        height: 164px;
+    }
+
+    main .container .quarta .mais-conteudo .itens-conteudo .conteudo-extra .descricao-conteudo {
+        max-width: 319px;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+
+    main .container .quarta .mais-conteudo .itens-conteudo .conteudo-extra .titulo-conteudo-extra {
+        margin: 10px 0 10px 0;
+    }
+
+    main .container .quarta .mais-conteudo .ver-todos-posts{
+        width: 180px;
+        padding: 5px 0 5px 0;
+        text-align: center;
+        margin: 0 0 30px 0;
+     }
  }

@@ -54,3 +54,49 @@ main .container .rightside aside img {
     width: 444px;
     height: 444px;
 }
+
+@media only screen and (max-width: 391px) {    
+    main .container .leftside {
+        display: flex;
+        flex-direction: column;        
+        align-items: center;
+    }   
+    main .container .leftside section form .titulo-contato {
+        margin: 30px 0 0 0;
+        font-size: 40px;
+    }
+    input[type=text],input[type=email], textarea {
+        box-sizing: border-box;
+        width: 200px;
+        margin: 10px 0 10px 0;
+    }
+    input[type=submit] {
+        margin-bottom: 30px;
+    }
+    main .container .rightside aside img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 392px) and (max-width: 769px) {
+    main .container .leftside {
+        display: flex;
+        flex-direction: column;        
+        align-items: center;
+    }   
+    main .container .leftside section form .titulo-contato {
+        margin: 30px 0 0 0;
+        font-size: 40px;
+    }
+    input[type=text],input[type=email], textarea {
+        box-sizing: border-box;
+        width: 200px;
+        margin: 10px 0 10px 0;
+    }
+    input[type=submit] {
+        margin-bottom: 30px;
+    }
+    main .container .rightside aside img {
+        display: none;
+    }
+}

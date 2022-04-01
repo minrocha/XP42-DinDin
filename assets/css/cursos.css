@@ -7,42 +7,36 @@ main .container {
     
 }
 
-main .container .titulo {
+main .container .primeira .titulo {
     font-family: 'Ubuntu';
     font-size: 60px;
     font-weight: 700;
     color: var(--cor-titulos);
-    margin: 81px 0 0 0;
+    margin: 81px 0 0 152px;
 }
 
-main .container .sub-titulo {
+main .container .primeira .sub-titulo {
     font-family: 'Ubuntu';
     font-size: 20px;
-    margin-bottom: 95px;
+    margin: 0 0 95px 152px;
 }
 
-main .container .titulo, .sub-titulo {
-    margin-left: 445px;
-} 
-
-main .container .lista-cursos {
+main .container .segunda .lista-cursos {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-main .container .lista-cursos .curso {
+main .container .segunda .lista-cursos .curso {
     display: flex;
     align-items: center;
-    margin: 0 0 53px 112px;
+    margin: 0 0 0px 0px;
 }
 
-main .container .lista-cursos .curso .leftside {
-    margin: 0 53px 0 0;
-}
-
-main .container .lista-cursos .curso .leftside img{
+main .container .segunda .lista-cursos .curso .leftside img{
     width: 380px;
+    height: 380px;
+    margin: 0 53px 68px 0;
 }
 
 main .container .lista-cursos .curso .rightside .titulo-curso  {
@@ -60,7 +54,7 @@ main .container .lista-cursos .curso .rightside .descricao-curso{
     width: 724px;
 }
 
-main .container .lista-cursos .curso .rightside button {
+main .container .lista-cursos .curso .rightside a {
     width: 233px;
     height: 51px;
     background-color: #419488;
@@ -68,13 +62,125 @@ main .container .lista-cursos .curso .rightside button {
     font-family: 'Ubuntu';
     font-size: 20px;
     border-radius: 62px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
 }
 
 main .container .lista-cursos hr {
-    margin: 0 0 107px 82px;
+    margin: 0 0 107px 0px;
     width: 1224px;
     height: 5px;
     background-color: #c4c4c4;
 }
 
+@media only screen and (max-width: 391px) {
+    main .container .primeira .titulo {
+        margin: 30px 0 0 0;
+        text-align: center;
+    }
+    
+    main .container .primeira .sub-titulo {
+        margin: 0 0 30px 0;
+        text-align: center;
+    }
+     
+    main .container .segunda .lista-cursos .curso {
+        flex-direction: column;
+        width: 100%;
+    }
 
+    main .container .segunda .lista-cursos .curso .leftside img{
+        width: 280px;
+        height: 280px;
+        margin: 0 0px 0px 0;
+    }
+    
+    main .container .segunda .lista-cursos .curso .rightside {
+        align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .container .segunda .lista-cursos .curso .rightside .titulo-curso  {
+        font-size: 25px;
+        margin: 15px 0 0 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    main .container .segunda .lista-cursos .curso .rightside .descricao-curso{  
+        height: auto;
+        max-width: 300px;
+        text-align: center;
+        margin: 15px auto 30px auto;
+    }
+    
+    main .container .segunda .lista-cursos .curso .rightside button {
+        margin: 0 0 40px 0;
+    }
+    
+    main .container .lista-cursos hr {
+        margin: 0 0 40px 0px;
+        width: 300px;
+        height: 5px;
+        background-color: #c4c4c4;
+    }
+}
+
+@media only screen and (min-width: 392px) and (max-width: 769px) {
+    main .container .primeira .titulo {
+        margin: 30px 0 0 0;
+        text-align: center;
+    }
+    
+    main .container .primeira .sub-titulo {
+        margin: 0 0 30px 0;
+        text-align: center;
+    }
+     
+    main .container .segunda .lista-cursos .curso {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    main .container .segunda .lista-cursos .curso .leftside img{
+        width: 280px;
+        height: 280px;
+        margin: 0 0px 0px 0;
+    }
+    
+    main .container .segunda .lista-cursos .curso .rightside {
+        align-items: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .container .segunda .lista-cursos .curso .rightside .titulo-curso  {
+        font-size: 25px;
+        margin: 15px 0 0 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    main .container .segunda .lista-cursos .curso .rightside .descricao-curso{  
+        height: auto;
+        max-width: 300px;
+        text-align: center;
+        margin: 15px auto 30px auto;
+    }
+    
+    main .container .segunda .lista-cursos .curso .rightside button {
+        margin: 0 0 40px 0;
+    }
+    
+    main .container .lista-cursos hr {
+        margin: 0 0 40px 0px;
+        width: 300px;
+        height: 5px;
+        background-color: #c4c4c4;
+    }
+}

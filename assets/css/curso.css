@@ -68,3 +68,179 @@ main .container .section-two .article .leftside .video-aula {
     background-color: #ca9191;
 }
 
+@media only screen and (max-width: 392px) {
+     main .container .section-one{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 0;
+    }
+    
+    main .container .section-one .leftside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .container .section-one .leftside .titulo-curso {
+        text-align: center;
+        font-size: 25px;
+        max-width: 400px;
+        margin: 30px 0 0 0;
+    }
+    
+    main .container .section-one .leftside .descricao-curso {
+        font-size: 20px;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    main .container .section-one .rightside {
+        margin: 0 0 0 0;
+    }
+    
+    main .container .section-one .rightside img {
+        width: 60%;
+        height: 30%;
+        display: flex;
+        margin: 0 auto 0 auto;
+    }
+    
+    main .container .section-two {
+        width: 100%;
+        margin: 60px 0 0 0;
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main .container .section-two .article {
+       width: 100%;
+        display: flex;
+       flex-direction: column;
+    }
+    
+    main .container .section-two .article .lefttside {
+        width: 100%;
+    }
+
+    main .container .section-two hr {
+        width: 70%;
+        height: 3px;
+        margin: 0 auto 30px auto;
+    }
+    
+    main .container .section-two .article .leftside .video-aula {
+        width: 65%;
+        height: 250px;
+        border: 3px solid #8e8e8e;
+        margin: 0 auto 0 auto;
+    }
+
+    main .container .section-two .article .rightside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .container .section-two .article .rightside .titulo-curso {
+        margin: 0 0 0 0;
+    }
+
+    main .container .section-two .article .rightside .descricao-aula {
+        max-width: 300px;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+    
+}
+
+@media only screen and (min-width: 392px) and (max-width: 769px) {
+    main .container .section-one{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 0;
+    }
+    
+    main .container .section-one .leftside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .container .section-one .leftside .titulo-curso {
+        text-align: center;
+        font-size: 25px;
+        max-width: 400px;
+        margin: 30px 0 0 0;
+    }
+    
+    main .container .section-one .leftside .descricao-curso {
+        font-size: 20px;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    main .container .section-one .rightside {
+        margin: 0 0 0 0;
+    }
+    
+    main .container .section-one .rightside img {
+        width: 60%;
+        height: 30%;
+        display: flex;
+        margin: 0 auto 0 auto;
+    }
+    
+    main .container .section-two {
+        width: 100%;
+        margin: 60px 0 0 0;
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main .container .section-two .article {
+       width: 100%;
+        display: flex;
+       flex-direction: column;
+    }
+    
+    main .container .section-two .article .lefttside {
+        width: 100%;
+    }
+
+    main .container .section-two hr {
+        width: 70%;
+        height: 3px;
+        margin: 0 auto 30px auto;
+    }
+    
+    main .container .section-two .article .leftside .video-aula {
+        width: 65%;
+        height: 250px;
+        border: 3px solid #8e8e8e;
+        margin: 0 auto 0 auto;
+    }
+
+    main .container .section-two .article .rightside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .container .section-two .article .rightside .titulo-curso {
+        margin: 0 0 0 0;
+    }
+
+    main .container .section-two .article .rightside .descricao-aula {
+        max-width: 300px;
+        text-align: center;
+        margin: 0 0 30px 0;
+    }
+}

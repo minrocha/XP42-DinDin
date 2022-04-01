@@ -68,7 +68,6 @@ footer h2 a{
 
 footer nav ul {
     margin: 30px 0;
-    
     padding: 0;
 }
 
@@ -92,7 +91,6 @@ footer a {
     display: block;
     margin: auto 0 auto 0;
     text-align: center;
-    
 }
 
 header .container {
@@ -121,5 +119,101 @@ header .container {
     header h2 a{
         margin: 0 auto 0 auto;
         padding: 0 0 0 0;
+    }
+
+    footer .container{
+        align-items: center;
+        height: auto;
+    }
+
+    footer .container h2{
+        display: none;
+    }
+
+    footer .container nav { 
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        height: auto;
+    }
+    footer .container nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .container .aux {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer .container .aux .links-anexos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0 0 0 0 ; 
+        padding: 0 0 0 0;
+    }
+
+    footer .container .aux .links-anexos a {
+        padding: 0 10px 0 10px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 392px) and (max-width:769px)  {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 200px; 
+    }
+
+    header h2 {
+        margin: 0 auto 0 auto;
+        padding: 0 0 0 0;
+    }
+    header h2 a{
+        margin: 0 auto 0 auto;
+        padding: 0 0 0 0;
+    }
+
+    footer .container{
+        align-items: center;
+        height: auto;
+    }
+
+    footer .container h2{
+        display: none;
+    }
+
+    footer .container nav { 
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        height: auto;
+    }
+    footer .container nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .container .aux {
+        margin: 0;
+        padding: 0;
+    }
+
+    footer .container .aux .links-anexos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 0 0 0 0 ; 
+        padding: 0 0 0 0;
+    }
+
+    footer .container .aux .links-anexos a {
+        padding: 0 10px 0 10px;
+        font-size: 15px;
     }
 }
